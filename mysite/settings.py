@@ -32,6 +32,7 @@ ADMINS = [('root', 'admin@admin.com'), ('williamovero', 'williamovero@gmail.com'
 # Application definition
 
 INSTALLED_APPS = [
+    'polls.apps.PollsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
