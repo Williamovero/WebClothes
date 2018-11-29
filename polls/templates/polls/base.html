@@ -1,5 +1,4 @@
-{% load static %}
-<!DOCTYPE html>
+{% load static %} <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -29,138 +28,135 @@
       crossorigin="anonymous"
     />
     <!-- Material Design Bootstrap -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/css/mdb.min.css" rel="stylesheet">
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/css/mdb.min.css"
+      rel="stylesheet"
+    />
     {% if title %}
-        <title>WebClothes - {{ title }}</title>
+      <title>WebClothes - {{ title }}</title>
     {% else %}
-        <title>WebClothes</title>
+      <title>WebClothes</title>
     {% endif %}
   </head>
   <!-- Beginning of body -->
   <body>
-        <header class="site-header">
-                <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
-    <div class="container">
+    <header class="site-header">
+      <!-- Navbar -->
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar"
+      >
+        <div class="container">
+          <!-- Brand -->
+          <a class="navbar-brand waves-effect" href="#" target="_blank">
+            <strong class="blue-text">WebClothes</strong>
+          </a>
 
-      <!-- Brand -->
-      <a class="navbar-brand waves-effect" href="#" target="_blank">
-        <strong class="blue-text">WebClothes</strong>
-      </a>
+          <!-- Collapse -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <!-- Collapse -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <!-- Links -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <!-- Links -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <!-- Left -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link waves-effect" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">About MDB</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/docs/jquery/getting-started/download/" target="_blank">Free download</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link waves-effect" href="https://mdbootstrap.com/education/bootstrap/" target="_blank">Free tutorials</a>
-          </li>
-        </ul>
-
-        <!-- Right -->
-        <ul class="navbar-nav nav-flex-icons">
-          <li class="nav-item">
-            <a class="nav-link waves-effect">
-              <span class="clearfix d-none d-sm-inline-block"> Cart </span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link waves-effect" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-          </li>
-        </ul>
-
-      </div>
-
-    </div>
-  </nav>
-  <!-- Navbar -->
-              </header>
-
+            <!-- Right -->
+            <ul class="navbar-nav nav-flex-icons">
+              <li class="nav-item">
+                <a
+                  class="nav-link waves-effect"
+                  href="#"
+                  target="_blank"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link waves-effect"
+                  href="#"
+                  target="_blank"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link waves-effect"
+                  href="#"
+                  target="_blank"
+                  >Login</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link waves-effect">
+                  <span class="clearfix d-none d-sm-inline-block"> Cart </span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link waves-effect" target="_blank">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link waves-effect" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar -->
+    </header>
 
     <!-- Beginning of footer -->
-<footer class="page-footer font-small blue pt-4">
+    <footer class="page-footer font-small blue pt-4" style="margin-top: 100%;">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase">WebClothes</h5>
+            <p class="text-uppercase">
+              We strive to make quality clothes
+            </p>
+          </div>
+          <!-- Grid column -->
 
-    <!-- Footer Links -->
-    <div class="container-fluid text-center text-md-left">
+          <hr class="clearfix w-100 d-md-none pb-5" />
 
-      <!-- Grid row -->
-      <div class="row">
-
-        <!-- Grid column -->
-        <div class="col-md-6 mt-md-0 mt-3">
-
-          <!-- Content -->
-          <h5 class="text-uppercase">Footer Content</h5>
-          <p>Here you can use rows and columns here to organize your footer content.</p>
-
-        </div>
-        <!-- Grid column -->
-
-        <hr class="clearfix w-100 d-md-none pb-5">
-
-        <!-- Grid column -->
-        <div class="col-md-3 mb-md-0 mb-3">
-
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
             <!-- Links -->
             <h5 class="text-uppercase">Follow us</h5>
 
             <ul class="list-unstyled">
-              <li>
-                <a href="#!">GitHub</a>
-              </li>
-              <li>
-                <a href="#!">Facebook</a>
-              </li>
-              <li>
-                <a href="#!">LinkedIn</a>
-              </li>
-              <li>
-                <a href="#!">Twitter</a>
-              </li>
+              <li><a href="#!">GitHub</a></li>
+              <li><a href="#!">Facebook</a></li>
+              <li><a href="#!">LinkedIn</a></li>
+              <li><a href="#!">Twitter</a></li>
             </ul>
-
           </div>
           <!-- Grid column -->
-
-
+        </div>
+        <!-- Grid row -->
       </div>
-      <!-- Grid row -->
+      <!-- Footer Links -->
 
-    </div>
-    <!-- Footer Links -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-      <a href="#"> WebClothes.com</a>
-    </div>
-    <!-- Copyright -->
-
-  </footer>
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2018 Copyright: <a href="#"> WebClothes.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
     <!-- End of footer -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -173,14 +169,20 @@
       crossorigin="anonymous"
     ></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.14/js/mdb.min.js"
+    ></script>
     <script src="..\..\static\polls\main.js"></script>
   </body>
 </html>
