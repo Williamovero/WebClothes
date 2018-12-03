@@ -1,6 +1,9 @@
 # WebClothes
 <h1>Initial design</h1>
 
+<h2>Home Page</h2>
+<img src="polls\WebClothesDesign\Home Page.png" alt="Home Page">
+
 <h2>Login Page</h2>
 <img src="polls\WebClothesDesign\Login Page.png" alt="Login Page">
 
